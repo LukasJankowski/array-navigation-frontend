@@ -2,7 +2,7 @@ Array-Navigation Frontend
 =========================
 
 Implementation of the rendering process of the array-navigation package from here:
-[https://github.com/LukasJankowski/array-navigation]
+https://github.com/LukasJankowski/array-navigation
 Using vuejs (2.x)
 
 ### TODO
