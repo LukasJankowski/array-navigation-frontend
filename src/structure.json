@@ -1,0 +1,120 @@
+[
+	{
+		"id": 0,
+		"parent": false,
+		"order": 0,
+		"tag": "nav",
+		"type": "root",
+		"attr": {
+			"class": "main-nav"
+		}
+	},
+	{
+		"id": 1,
+		"parent": 0,
+		"order": 0,
+		"tag": "ul",
+		"type": "list",
+		"attr": {
+			"class": "nav-list"
+		}
+	},
+	{
+		"id": 2,
+		"parent": 1,
+		"order": 0,
+		"tag": "li",
+		"type": "item",
+		"attr": {
+			"class": "nav-item"
+		}
+	},
+	{
+		"id": 3,
+		"parent": 1,
+		"order": 1,
+		"tag": "li",
+		"type": "item",
+		"attr": {
+			"class": "nav-item"
+		}
+	},
+	{
+		"id": 4,
+		"parent": 2,
+		"order": 0,
+		"tag": "a",
+		"type": "link",
+		"attr": {
+			"class": "nav-link",
+			"href": "/"
+		},
+		"inner": "Home"
+	},
+	{
+		"id": 5,
+		"parent": 3,
+		"order": 0,
+		"tag": "a",
+		"type": "link",
+		"attr": {
+			"class": "nav-link dropdown-link",
+			"href": "#"
+		},
+		"inner": "About"
+	},
+	{
+		"id": 6,
+		"parent": 3,
+		"order": 1,
+		"tag": "ul",
+		"type": "list",
+		"attr": {
+			"class": "sub-nav"
+		}
+	},
+	{
+		"id": 7,
+		"parent": 6,
+		"order": 0,
+		"tag": "li",
+		"type": "item",
+		"attr": {
+			"class": "nav-item sub-nav-item"
+		}
+	},
+	{
+		"id": 8,
+		"parent": 6,
+		"order": 1,
+		"tag": "li",
+		"type": "item",
+		"attr": {
+			"class": "nav-item sub-nav-item"
+		}
+	},
+	{
+		"id": 10,
+		"parent": 8,
+		"order": 0,
+		"tag": "a",
+		"type": "link",
+		"attr": {
+			"href": "#",
+			"onclick": "modal('#somemodal');"
+		},
+		"inner": "Philosophy"
+	},
+	{
+		"id": 9,
+		"parent": 7,
+		"order": 0,
+		"tag": "a",
+		"type": "link",
+		"attr": {
+			"class": "nav-link",
+			"href": "/staff"
+		},
+		"inner": "Staff"
+	}
+]
